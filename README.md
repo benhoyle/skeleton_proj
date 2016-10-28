@@ -13,15 +13,21 @@ Database models for SQLAlchemy are found in ```models.py```.
 
 The ```webserver.py``` file holds a basic Flask webserver for the frontend.
 
-To start the webserver that implements the user interface run:
-```python -m skeleton.webserver```
+To start the webserver that implements the user interface run - 
+```
+python -m skeleton.webserver
+```
 and point your browser to:
-```localhost:3000```
+```
+localhost:3000
+```
 
 Remember to edit the data in ```setup.py```.
 
 Once started you can install by cd-ing to the project directory and running:
-```pip install .```
+```
+pip install .
+```
 
 Library for [doing stuff].
 
