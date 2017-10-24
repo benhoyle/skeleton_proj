@@ -2,8 +2,17 @@
 
 A skeleton set of files to help accelerate development on Python pet projects.
 
-Clone this project then rename references to "skeleton". 
-E.g. change this to the name of your project (e.g. "FunApp").
+The best way to start a new project using this repository is to do the following:
+```
+git clone --bare git@github.com:benhoyle/skeleton_proj.git
+cd skeleton_proj.git
+```
+Then setup a new repository on GitHub for your new project. Then run:
+```
+git push --mirror git@github.com:[your_name]/[your_new_project].git
+rm -rf skeleton_proj.git
+git clone git@github.com:[your_name]/[your_new_project].git
+```
 
 The ```core.py``` file holds the main classes and functions. 
 
